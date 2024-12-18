@@ -86,16 +86,7 @@ const ItemWrapper = styled.div`
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
-      icon={
-        <img
-          width="100%"
-          height="100%"
-          alt={experience?.company}
-          style={{ borderRadius: "50%", objectFit: "cover" }}
-          src={experience?.img}
-        />
-      }
-      contentStyle={{
+        contentStyle={{
         display: "flex",
         flexDirection: "column",
         gap: "12px",
@@ -106,35 +97,52 @@ const ExperienceCard = ({ experience }) => {
         border: "1px solid rgba(255, 255, 255, 0.125)",
         borderRadius: "6px",
       }}
-      contentArrowStyle={{
-        borderRight: "7px solid  rgba(255, 255, 255, 0.3)",
-      }}
-      date={experience?.date}
+      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+      date={experience.date}
+      iconStyle={{ background: experience.iconBg }}
+      icon = {
+        <div 
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "100%", // Adjust parent size if necessary
+            height: "100%", // Adjust parent size if necessary
+          }}
+        >
+          <img
+            src={experience.icon}
+            alt={experience.company_name}
+            style={{
+              width: "40px", // Set a smaller width
+              height: "40px", // Set a smaller height to maintain aspect ratio
+              objectFit: "cover",
+            }}
+          />
+        </div>
+      }
+      
     >
-      <Top>
-        <Image src={experience?.img} />
-        <Body>
-          <Role>{experience?.role}</Role>
-          <Company>{experience?.company}</Company>
-          <Date>{experience?.date}</Date>
-        </Body>
-      </Top>
-      <Description>
-        {experience?.desc && <Span>{experience.desc}</Span>}
-        {experience?.skills && (
-          <>
-            <br />
-            <Skills>
-              <b>Skills</b>
-              <ItemWrapper>
-                {experience?.skills?.map((skill, index) => (
-                  <Skill>• {skill}</Skill>
-                ))}
-              </ItemWrapper>
-            </Skills>
-          </>
-        )}
-      </Description>
+      <div>
+        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <p
+          className='text-secondary text-[16px] font-semibold'
+          style={{ margin: 0 }}
+        >
+          {experience.company_name}
+        </p>
+      </div>
+
+      <ul className='mt-5 list-disc ml-5 space-y-2'>
+        {experience.points.map((point, index) => (
+          <li
+            key={`experience-point-${index}`}
+            className='text-white-100 text-[14px] pl-1 tracking-wider'
+          >
+            {point}
+          </li>
+        ))}
+      </ul>
     </VerticalTimelineElement>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { skills } from "../../data/constants";
 
 const Card = styled.div`
   width: 330px;
@@ -34,6 +35,7 @@ const Tags = styled.div`
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 4px;
+  color: ${({ theme }) => theme.text_secondary};
 `;
 const Details = styled.div`
   width: 100%;
@@ -66,7 +68,7 @@ const Date = styled.div`
 const Description = styled.div`
   font-weight: 400;
   color: ${({ theme }) => theme.text_secondary + 99};
-  overflow: hidden;
+
   margin-top: 8px;
   display: -webkit-box;
   max-width: 100%;
@@ -93,13 +95,14 @@ const Button = styled.a`
   text-decoration: none;
   font-weight: 600;
   text-align: center;
+  bottom:30px;
+  margin-top: 60px;
 `;
 
 const ProjectCard = ({ project }) => {
   return (
     <Card>
       <Image src={project.image} />
-      <Tags></Tags>
       <Details>
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
@@ -110,6 +113,9 @@ const ProjectCard = ({ project }) => {
           <Avatar src={member.img} />
         ))}
       </Members>
+      <Tags>{project.tags?.map((skill) => (
+        <Title key={skill.name}/>
+      ))}</Tags>
       <Button href={project.github} target="_blank">
         View Code
       </Button>
