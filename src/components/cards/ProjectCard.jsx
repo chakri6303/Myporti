@@ -4,7 +4,6 @@ import { skills } from "../../data/constants";
 
 const Card = styled.div`
   width: 330px;
-  height: 490px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
@@ -31,10 +30,9 @@ const Image = styled.img`
 const Tags = styled.div`
   width: 100%;
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
+  text-align: center;
   gap: 8px;
-  margin-top: 4px;
   color: ${({ theme }) => theme.text_secondary};
 `;
 const Details = styled.div`
@@ -72,7 +70,7 @@ const Description = styled.div`
   margin-top: 8px;
   display: -webkit-box;
   max-width: 100%;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 8;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 `;
@@ -96,26 +94,27 @@ const Button = styled.a`
   font-weight: 600;
   text-align: center;
   bottom:30px;
-  margin-top: 60px;
 `;
 
 const ProjectCard = ({ project }) => {
   return (
     <Card>
-      <Image src={project.image} />
+      <Image src={project.image} alt={`${project.title} preview`} />
       <Details>
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
         <Description>{project.description}</Description>
       </Details>
-      <Members>
-        {project.member?.map((member) => (
-          <Avatar src={member.img} />
-        ))}
-      </Members>
-      <Tags>{project.tags?.map((skill) => (
-        <Title key={skill.name}/>
-      ))}</Tags>
+      <Tags>
+  {project.skill?.map((skill) => (
+    <span
+      key={skill.name}
+      style={{ color: skill.color }}
+    >
+      #{skill.name}
+    </span>
+  ))}
+</Tags>
       <Button href={project.github} target="_blank">
         View Code
       </Button>
