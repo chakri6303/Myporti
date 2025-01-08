@@ -404,7 +404,7 @@ export const projects = [
     },
   ],
   image: tripguide2,
-  github: "https://github.com/chakri6303/Myportfolio",
+  github: "https://github.com/chakri6303/Myportifolio2",
 },
 ];
 
