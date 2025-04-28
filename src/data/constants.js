@@ -29,6 +29,7 @@ import {
   firebase,
   codeway,
   github,
+  batalks,
 } from "../assets";
 // import '../index.css';
 
@@ -43,7 +44,7 @@ export const Bio = {
     "A skilled full-stack developer with expertise in Python Flask and Android development. Proficient in building dynamic web and mobile applications, integrating robust backends with intuitive frontend designs. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!",
   github: "https://github.com/chakri6303",
   resume:
-    "https://drive.google.com/file/d/1QZoEhTE9mHYLOyMxnRLe8Ry_IhrhShox/view?usp=sharing",
+    "https://drive.google.com/file/d/1VYAM_chzWo4ivngV5XgW2qxbqcZFswae/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/medisetti-sesha-venkata-rama-krishna-453b60286/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/trynafind_chakri/",
@@ -216,7 +217,7 @@ export const experiences = [
   { 
     title: "Python Developer",
     company_name: "BAtalks",
-    icon: shopify,
+    icon: batalks,
     iconBg: "#383E56",
     date: "Nov 2024 - Present",
     points: [
