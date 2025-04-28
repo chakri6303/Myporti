@@ -29,7 +29,6 @@ import {
   firebase,
   codeway,
   github,
-  batalks,
 } from "../assets";
 // import '../index.css';
 
@@ -217,7 +216,7 @@ export const experiences = [
   { 
     title: "Python Developer",
     company_name: "BAtalks",
-    icon: batalks,
+    icon: shopify,
     iconBg: "#383E56",
     date: "Nov 2024 - Present",
     points: [
