@@ -94,10 +94,10 @@ export const skills = [
   {
     title: "Backend",
     skills: [
-      {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
+      // {
+      //   name: "Node Js",
+      //   image: "https://nodejs.org/static/images/logo.svg",
+      // },
       // {
       //   name: "Express Js",
       //   image:
@@ -213,7 +213,19 @@ export const skills = [
 ];
 
 export const experiences = [
-  {
+  { 
+    title: "Python Developer",
+    company_name: "BAtalks",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Nov 2024 - Present",
+    points: [
+      "Backend and Frontend Development: Built scalable backend systems using Python and MySQL, and responsive frontend interfaces with HTML, CSS, and JavaScript.",
+      "Major Projects: Successfully developed Admin Orbit (HRMS & EMS), Smart Screen (HR Interview Management System), and Voice Assist (AI-based Support Bot).",
+      "Current Work: Developing Hospital Management System (HMS) modules including patient registration, doctor scheduling, billing, and pharmacy management."
+,
+    ],
+  },{
     title: "Android Developer Intern",
     company_name: "Tefologic",
     icon: tesla,
@@ -224,30 +236,6 @@ export const experiences = [
       "Applied advanced knowledge in Android development, utilizing Java and XML to optimize app performance.",
       "Integrated new APIs to expand app functionality and ensure seamless operation.",
 
-    ],
-  },{ 
-    title: "Android Developer Intern",
-    company_name: "Google",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Apr 2024 - Jun 2024",
-    points: [
-      "Engaged in high-impact Android app development projects, collaborating closely with teams to deliver innovative solutions.",
-      "Demonstrated strong problem-solving skills and contributed to technical innovations.",
-      "Actively participated in continuous learning and development initiatives."
-,
-    ],
-  },
-  {
-    title: "Android Developer Intern",
-    company_name: "Codeway Solutions",
-    icon: codeway,
-    iconBg: "#E6DEDD",
-    date: "Apr 2024 - Apr 2024",
-    points: [
-      "Contributed to multiple mobile app development projects, actively engaging in code reviews and collaborating effectively with cross-functional teams.",
-      "Engaged in continuous learning through training sessions on the latest technologies.",
-      "Contributed to innovation and excellence in a dynamic work environment.",
     ],
   },
 ];
