@@ -218,7 +218,7 @@ export const experiences = [
     company_name: "BAtalks",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Nov 2024 - Present",
+    date: "Mar 2024 - Present",
     points: [
       "Backend and Frontend Development: Built scalable backend systems using Python and MySQL, and responsive frontend interfaces with HTML, CSS, and JavaScript.",
       "Major Projects: Successfully developed Admin Orbit (HRMS & EMS), Smart Screen (HR Interview Management System), and Voice Assist (AI-based Support Bot).",
@@ -230,7 +230,7 @@ export const experiences = [
     company_name: "Tefologic",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Mar 2024 - Jun 2024",
+    date: "Dec 2023 - Feb 2024",
     points: [
       "Contributed to the development of innovative mobile applications, enhancing user experiences by implementing new features.",
       "Applied advanced knowledge in Android development, utilizing Java and XML to optimize app performance.",
