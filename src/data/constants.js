@@ -21,6 +21,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  beatior,
   carrent,
   carrent2,
   jobit,
@@ -40,10 +41,10 @@ export const Bio = {
     "Android Developer",
   ],
   description:
-    "A skilled full-stack developer with expertise in Python Flask and Android development. Proficient in building dynamic web and mobile applications, integrating robust backends with intuitive frontend designs. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!",
+    "Passionate Full-Stack Developer specializing in crafting innovative digital solutions. Expert in modern web technologies including Python, React.js, Node.js, and Android development with a strong foundation in both SQL and NoSQL databases. \n\nI excel at transforming complex business requirements into scalable, user-friendly applications. My expertise spans the entire development lifecycle—from architecting robust backend systems and RESTful APIs to creating intuitive frontend interfaces and optimizing database performance. \n\nNotable achievements include developing enterprise-grade HR Management Systems, Hospital Management platforms, and AI-powered applications that serve real users and solve critical business challenges. I'm committed to writing clean, maintainable code and delivering solutions that not only meet technical requirements but also provide exceptional user experiences.",
   github: "https://github.com/chakri6303",
   resume:
-    "https://drive.google.com/file/d/1zxWfg3FYy9wzyD9DWqLV1uEvq3TEyGkY/view?usp=sharing",
+    "https://drive.google.com/file/d/1gwCNQLhJsuggo6W8yXQfJBe3oiua-gzD/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/medisetti-sesha-venkata-rama-krishna-453b60286/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/trynafind_chakri/",
@@ -52,28 +53,57 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Frontend",
+    title: "Programming Languages",
     skills: [
       {
-        name: "React Js",
+        name: "Python",
         image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
-      // {
-      //   name: "Redux",
-      //   image:
-      //     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      // },
-      // {
-      //   name: "Next Js",
-      //   image:
-      //     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      // },
-      // {
-      //   name: "Angular Js",
-      //   image:
-      //     "https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667",
-      // },
+      {
+        name: "Java",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
+      {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "XML",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+      },
+    ],
+  },
+  {
+    title: "Mobile Development",
+    skills: [
+      {
+        name: "Android Studio",
+        image:
+          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+      },
+      {
+        name: "Android SDK",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/512px-Android_robot.svg.png",
+      },
+      {
+        name: "Firebase",
+        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
+      {
+        name: "Expo",
+        image:
+          "https://cdn.worldvectorlogo.com/logos/expo-go-app.svg",
+      },
+    ],
+  },
+  {
+    title: "Web Development",
+    skills: [
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -84,158 +114,134 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
       {
-        name: "JavaScript",
+        name: "React Js",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
-
     ],
   },
   {
-    title: "Backend",
+    title: "Backend Development",
     skills: [
-      // {
-      //   name: "Node Js",
-      //   image: "https://nodejs.org/static/images/logo.svg",
-      // },
-      // {
-      //   name: "Express Js",
-      //   image:
-       // },
-      // {
-      //   name: "Graph Ql",
-      //   image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
-      // },
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
       {
         name: "Flask",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
       },
-      // {
-      //   name: "Django",
-      //   image:
-      //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFFyY16N5NRhzoG24RqB7x8Ok2t8Bdgs-tuMsOBXS2Q&s",
-      // },
+      {
+        name: "Node.js",
+        image: "https://nodejs.org/static/images/logo.svg",
+      },
+      {
+        name: "Express.js",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+      },
+    ],
+  },
+  {
+    title: "Database Management",
+    skills: [
       {
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
-      // {
-      //   name: "Postgresql",
-      //   image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      // },
-      // {
-      //   name: "MongoDB",
-      //   image:
-      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      // },
       {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        name: "MongoDB",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "SQLite",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/256px-Sqlite-square-icon.svg.png",
       },
     ],
   },
   {
-    title: "Android",
+    title: "Cloud Platforms",
     skills: [
       {
-        name: "Java",
+        name: "AWS",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      // {
-      //   name: "Kotlin",
-      //   image:
-      //     "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      // },
-      // {
-      //   name: "Jetpack Compose",
-      //   image:
-      // },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png",
       },
       {
-        name: "Android Studio",
+        name: "Google Cloud Platform",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://img.icons8.com/color/512/google-cloud.png",
       },
     ],
   },
   {
-    title: "Others",
+    title: "Version Control & Deployment",
     skills: [
       {
         name: "Git",
         image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
       },
       {
-        name: "GitHub",
+        name: "Play Store Deployment",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://www.logo.wine/a/logo/Google_Play/Google_Play-Icon-Logo.wine.svg",
       },
-      // {
-      //   name: "Netlify",
-      //   image:
-      //     "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      // },
       {
-        name: "VS Code",
+        name: "iOS Build Submission",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/488px-Apple_logo_black.svg.png",
       },
-      // {
-      //   name: "Postman",
-      //   image:
-      //     "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
-      // },
-      // {
-      //   name: "Adobe XD",
-      //   image:
-      //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-      // },
-      // {
-      //   name: "Figma",
-      //   image:
-      //     "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
-      // },
     ],
   },
 ];
 
 export const experiences = [
-  { 
-    title: "Python Developer",
-    company_name: "BAtalks",
-    icon: shopify,
+  {
+    title: "Full-Stack Developer",
+    company_name: "Beatior",
+    icon: meta,
     iconBg: "#383E56",
-    date: "Mar 2024 - Present",
+    date: "08/2025 - Present",
     points: [
-      "Backend and Frontend Development: Built scalable backend systems using Python and MySQL, and responsive frontend interfaces with HTML, CSS, and JavaScript.",
-      "Major Projects: Successfully developed Admin Orbit (HRMS & EMS), Smart Screen (HR Interview Management System), and Voice Assist (AI-based Support Bot).",
-      "Current Work: Developing Hospital Management System (HMS) modules including patient registration, doctor scheduling, billing, and pharmacy management."
-,
+      "Engineered end-to-end features for web applications across diverse tech stacks, including Python, React, Node.js, Express, MySQL, and MongoDB.",
+      "Architected and developed scalable RESTful APIs for an HR management platform (Cairz), enabling comprehensive CRUD operations for employee data, benefits administration, and enterprise modules.",
+      "Designed and implemented a secure hierarchical file management system (Swiftl), allowing dynamic creation of nested folders and files, with robust backend logic and an intuitive React frontend.",
+      "Modeled and optimized database schemas for both SQL (MySQL) and NoSQL (MongoDB) databases to ensure efficient data storage, retrieval, and integrity.",
+      "Conducted rigorous functional and user-acceptance testing for two applications (Aiming, Wel Vocal), identifying and resolving documentation and facilitation resolution of 70+ bugs to significantly enhance product stability and user experience.",
+      "Currently developing a centralized employee dashboard using ReactJS to improve user engagement and provide a single portal for all HR functionalities.",
+      "Managed VotLocal's app testing, modification, and deployment for both iOS and Android, ensuring smooth release cycles and platform stability.",
+      "Collaborated on feature enhancements, performance optimization, and bug resolution to improve user engagement and overall app experience.",
+      "Contributed to VotLocal's mission of connecting citizens with elected representatives, fostering transparency, accessibility, and civic engagement through technology."
     ],
-  },{
+  },
+  {
+    title: "Python Developer",
+    company_name: "BAtalks Pvt Ltd",
+    icon: shopify,
+    iconBg: "#E6DEDD",
+    date: "03/2024 - 06/2025",
+    points: [
+      "Developed and maintained backend systems using Python and MySQL, ensuring efficient and scalable architecture.",
+      "Built and enhanced frontend interfaces using HTML, CSS, and JavaScript to deliver responsive and user-friendly web applications.",
+      "Successfully developed Admin Orbit (HRMS & EMS): A comprehensive HR Management System and Employee Management System: Managed complete employee lifecycle including onboarding, leave tracking, payroll data, and performance records.",
+      "Designed robust database schemas and optimized queries in MySQL for high performance and data integrity.",
+      "Contributed to the Smart Screen Project, an HR Interview Management System: Streamlined interview scheduling, feedback management, interviewer coordination.",
+      "Developed the Voice Assist Project: Built an intelligent bot that accurately answered user queries related to the company's website, improving user experience and support automation.",
+      "Currently working on HMS (Hospital Management System): Developing modules for patient registration, doctor scheduling, billing, pharmacy management, and report generation.",
+      "Ensured best coding practices, documentation, and collaborative teamwork to deliver high-quality solutions that meet deadlines."
+    ],
+  },
+  {
     title: "Android Developer Intern",
     company_name: "Tefologic",
     icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Dec 2023 - Feb 2024",
+    iconBg: "#383E56",
+    date: "12/2023 - 03/2024",
     points: [
       "Contributed to the development of innovative mobile applications, enhancing user experiences by implementing new features.",
       "Applied advanced knowledge in Android development, utilizing Java and XML to optimize app performance.",
-      "Integrated new APIs to expand app functionality and ensure seamless operation.",
-
+      "Integrated new APIs to expand app functionality and ensure seamless operation."
     ],
   },
 ];
@@ -346,53 +352,53 @@ export const projects = [
   image: jobit,
   github: "https://github.com/chakri6303/Public_news_app",
 },
-{
-  title: "Nike Store",
-  description: "The Nike Shoe Store project is a modern and responsive web application that showcases a collection of Nike shoes. It allows users to browse different shoe models and view detailed information about each product.",
-  skill: [
-    {
-      name: "reactjs",
-      color: "#2658d1",
-    },
-    {
-      name: "javascript",
-      color: "#0ebe38",
-    },
-    {
-      name: "html",
-      color: "#da2a8e",
-    },
-    {
-      name: "css",
-      color: "#f4af10",
-    },
-  ],
-  image: tripguide,
-  github: "https://github.com/chakri6303/Nike-store",
-},
-{
-  title: "My Portfolio",
-  description: "I built a responsive portfolio website using React.js to showcase my projects, skills, and achievements. This project highlights my expertise in React.js and modern web development practices.",
-  skill: [
-    {
-      name: "reactjs",
-      color: "#2658d1",
-    },
-    {
-      name: "javascript",
-      color: "#0ebe38",
-    },
-    {
-      name: "css",
-      color: "#da2a8e",
-    },
-    {
-      name: "html",
-      color: "#f4af10",
-    },
-  ],
-  image: tripguide2,
-  github: "https://github.com/chakri6303/Myportifolio2",
-},
+// {
+//   title: "Nike Store",
+//   description: "The Nike Shoe Store project is a modern and responsive web application that showcases a collection of Nike shoes. It allows users to browse different shoe models and view detailed information about each product.",
+//   skill: [
+//     {
+//       name: "reactjs",
+//       color: "#2658d1",
+//     },
+//     {
+//       name: "javascript",
+//       color: "#0ebe38",
+//     },
+//     {
+//       name: "html",
+//       color: "#da2a8e",
+//     },
+//     {
+//       name: "css",
+//       color: "#f4af10",
+//     },
+//   ],
+//   image: tripguide,
+//   github: "https://github.com/chakri6303/Nike-store",
+// },
+// {
+//   title: "My Portfolio",
+//   description: "I built a responsive portfolio website using React.js to showcase my projects, skills, and achievements. This project highlights my expertise in React.js and modern web development practices.",
+//   skill: [
+//     {
+//       name: "reactjs",
+//       color: "#2658d1",
+//     },
+//     {
+//       name: "javascript",
+//       color: "#0ebe38",
+//     },
+//     {
+//       name: "css",
+//       color: "#da2a8e",
+//     },
+//     {
+//       name: "html",
+//       color: "#f4af10",
+//     },
+//   ],
+//   image: tripguide2,
+//   github: "https://github.com/chakri6303/Myportifolio2",
+// },
 ];
 
