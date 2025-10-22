@@ -41,7 +41,7 @@ export const Bio = {
     "Android Developer",
   ],
   description:
-    "Passionate Full-Stack Developer specializing in crafting innovative digital solutions. Expert in modern web technologies including Python, React.js, Node.js, and Android development with a strong foundation in both SQL and NoSQL databases. \n\nI excel at transforming complex business requirements into scalable, user-friendly applications. My expertise spans the entire development lifecycle—from architecting robust backend systems and RESTful APIs to creating intuitive frontend interfaces and optimizing database performance. \n\nNotable achievements include developing enterprise-grade HR Management Systems, Hospital Management platforms, and AI-powered applications that serve real users and solve critical business challenges. I'm committed to writing clean, maintainable code and delivering solutions that not only meet technical requirements but also provide exceptional user experiences.",
+    "Passionate Full-Stack Developer specializing in Python, React.js, Node.js, and Android development. I build scalable web applications, RESTful APIs, and mobile solutions with expertise in both SQL and NoSQL databases. Successfully delivered enterprise-grade HR Management Systems, Hospital Management platforms, and AI-powered applications. Committed to writing clean code and creating exceptional user experiences.",
   github: "https://github.com/chakri6303",
   resume:
     "https://drive.google.com/file/d/1gwCNQLhJsuggo6W8yXQfJBe3oiua-gzD/view?usp=sharing",
